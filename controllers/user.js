@@ -3,7 +3,7 @@ const models = require("../models");
 const bcryptjs = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const Validator = require('fastest-validator');
-const dotenv = require('../dotenv')
+// const dotenv = require('../dotenv')
 
 //For Create a New User
 const signUpUser = async (req, res) => {
